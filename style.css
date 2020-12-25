@@ -1,0 +1,53 @@
+html {
+    display: block;
+}
+
+body {
+    background-color: #0C0C0C;
+    font-size: 3em;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'Amatic SC';
+    color: #FFFFFF;
+    user-select: none;
+}
+
+.header {
+    display: block;
+    position: relative;
+}
+
+.header .header__logo {
+    color: #FFFFFF;
+    font-size: 350%;
+    position: fixed;
+    font-weight: 400;
+    left: 15%;
+    top: 12%;
+    margin: 0;
+    padding-bottom: 3px;
+    transform-origin: top left;
+    letter-spacing: 0px;
+    transform: rotate(90deg);
+}
+
+div {
+    display: inline-block;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin: -0.5%;
+}
+
+.header .score__inf  {
+    font-size: 150%;
+    letter-spacing: 2.5px;
+    position: absolute;
+    right: 10%;
+}
+
+canvas {
+    position: absolute;
+    left: 400px;
+    border: 1.5px solid #222222;
+    box-shadow: 0 0 25px #000000;
+}
